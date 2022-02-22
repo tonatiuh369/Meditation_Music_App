@@ -39,7 +39,7 @@
 
 @media (max-width: 600px){
     .player-container {
-        height: 60%;
+        height: 52%;
     }
     
     .player-container .play {
@@ -130,9 +130,9 @@ video {  /*Temporal [Eliminar]*/
 
 @media (max-width: 600px){
     .sound-picker button {
-        height: 75px;
-        width: 75px;
-        padding: 18px;
+        height: 70px;
+        width: 70px;
+        padding: 15px;
     }
 
 }
