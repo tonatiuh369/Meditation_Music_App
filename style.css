@@ -38,15 +38,23 @@
 }
 
 @media (max-width: 600px){
+    .app {
+        margin-top: 53px;
+    }
+
     .time-select, 
-    .sound-picker,
     .player-container {
         justify-content: center;
         gap: 20px; 
     }
 
+    .sound-picker {
+        justify-content: center;
+        gap: 30px;
+    }
+
     .player-container {
-        height: 45%;
+        height: 42%;
     }
     
     .player-container .play {
@@ -73,8 +81,8 @@
 
 @media (max-width: 600px){
     .time-display {
-        margin: -11px;
-        font-size: 38px;
+        margin: -13px;
+        font-size: 34px;
     }
 }
 
@@ -109,8 +117,8 @@ video {  /*Temporal [Eliminar]*/
 
 @media (max-width: 600px){
     .time-select button {
-        width: 50%;
-        height: 10%;
+        width: 49%;
+        height: 9%;
         font-size: 80%;
     }
 }
