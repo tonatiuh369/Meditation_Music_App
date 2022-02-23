@@ -39,7 +39,7 @@
 
 @media (max-width: 600px){
     .app {
-        margin-top: 53px;
+        margin-top: 50px;
     }
 
     .time-select, 
@@ -50,7 +50,7 @@
 
     .sound-picker {
         justify-content: center;
-        gap: 30px;
+        gap: 35px;
     }
 
     .player-container {
