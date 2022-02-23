@@ -38,12 +38,19 @@
 }
 
 @media (max-width: 600px){
+    .time-select, 
+    .sound-picker,
     .player-container {
-        height: 52%;
+        justify-content: center;
+        gap: 20px; 
+    }
+
+    .player-container {
+        height: 45%;
     }
     
     .player-container .play {
-        height: 25%;
+        height: 22%;
     }
 }
 /*
@@ -66,8 +73,8 @@
 
 @media (max-width: 600px){
     .time-display {
-        margin: -8px;
-        font-size: 40px;
+        margin: -11px;
+        font-size: 38px;
     }
 }
 
